@@ -1,0 +1,49 @@
+#corpoCalculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: #e0d1ed;
+    border: 30px solid #e62974;
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    background-color: #4b004c;
+    
+  
+}
+#botao{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    padding: 50px;
+    color: #c70452;
+}
+
+h3{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #c70452;
+
+}
+
+#p1{
+    
+    color: #c70452;
+}
