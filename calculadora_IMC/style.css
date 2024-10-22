@@ -1,16 +1,3 @@
-#corpoCalculadora{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 400px;
-    background-color: #e0d1ed;
-    border: 30px solid #e62974;
-    border-radius: 20px;
-    box-shadow: 10px 20px grey;
-
-}
 body{
     display: flex;
     flex-direction: column;
@@ -18,20 +5,7 @@ body{
     align-items: center;
     margin: 60px;
     background-color: #4b004c;
-    
-  
-}
-#botao{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-#titulo{
-    padding: 50px;
-    color: #c70452;
 }
 
 h3{ 
@@ -40,10 +14,75 @@ h3{
     align-items: center;
     justify-content: center;
     color: #c70452;
+    
 
 }
+
+button{
+    background-color: #c70452;
+}
+
+P{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4b004c;
+    
+}
+
+#corpoCalculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 550px;
+    background-color: #e0d1ed;
+    border: 30px solid #e62974;
+    border-radius: 20px;
+    box-shadow: 10px 20px grey;
+
+}
+
+#botao1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+#enviodados{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#titulo{
+    padding: 50px;
+    color: #c70452;
+
+}
+
 
 #p1{
     
     color: #c70452;
+
+}
+
+
+#input{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }

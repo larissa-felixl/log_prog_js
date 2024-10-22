@@ -10,21 +10,26 @@
     <div id="corpoCalculadora">
         <h1 id="titulo">Calculadora de IMC!</h1>
         
-        <div class="input">
+        <div id="input">
             <h3>Peso (em kg)</h3>
             <input class="dado" id="peso" type="Number" placeholder="Digite aqui:">
-        <div class="input">
-            <h3>Altura (em metros)</h2>
-            <input class="dado" id="altura" type="umber" placeholder="Digite aqui:">
-        </div>    
-            
+            <h3>Altura (em metros)</h3>
+            <input class="dado" id="altura" type="Number" placeholder="Digite aqui:">
         </div>
-        <div id="botao">
+        <div id="enviodados">
+            <button onclick="enviodados()">Enviar dados</button>
+        </div>
+
+        <div id="botao1">
             <button onclick="exibir()">Calcular já</button>
-            <p id="p1"><br></p>
 
         </div>
+        <div>
+            <p id="p1"></p>
+            <p id="classimc"></p>
+        </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
